@@ -23,6 +23,7 @@
   margin-right: var(--margin-main-header);
   padding: 0;
   display: flex;
+  font-family: var(--font-header);
 }
 
 .header nav ul li {
@@ -40,6 +41,7 @@
 
 .home {
   padding: var(--padding-mid-header);
+  
 }
 
 .projects{

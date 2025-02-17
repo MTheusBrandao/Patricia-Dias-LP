@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './header.css';
+import './Header.css';
 import { IoLogoInstagram } from "react-icons/io5";
 
 
 const Header = () => {
   return (
     <header className="header">
-      <a href='#'><h1>Patricia Dias</h1></a>
+      <a href='#'><h1>PATRICIA DIAS</h1></a>
       <nav>
         <ul>
           <li><a className='home' href="/">Home</a></li>

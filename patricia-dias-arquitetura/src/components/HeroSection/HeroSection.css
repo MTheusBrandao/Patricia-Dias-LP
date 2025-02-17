@@ -1,0 +1,39 @@
+.hero-section {
+    height: 540px; 
+    padding: 6rem;
+    background-color: var(--decoration-square-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    width: 100%;
+    padding: 0 20px; /* Espaçamento lateral */
+  }
+  
+  .hero-text {
+    max-width: 50%; /* Largura máxima do texto */
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem; 
+    margin-bottom: 0.5rem;
+    color: var(--font-main-color); 
+    font-family: var(--font-logo);
+  }
+  
+  .hero-text p {
+    font-size: 1.5rem;
+    color: var(--font-main-color);
+  }
+  
+  .hero-image img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o container */
+    height: auto;
+    margin-top: 140px;
+  }
