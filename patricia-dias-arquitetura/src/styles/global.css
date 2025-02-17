@@ -1,0 +1,64 @@
+/*Fontes*/
+@font-face {
+  font-family: 'Olarwe';
+  src: url('../fonts/OLARWE-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arquitecta';
+  src: url('../fonts/Arquitecta.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  /* Cores principais */
+  --bg-header-color: #EFEFE7;
+  /* Cor do fundo do header */
+  --font-header-color: #000000;
+  /* Cor da fonte do header */
+  --bg-color: #EFEFE7;
+  /* Cor do background*/
+
+  /* Espaçamentos*/
+  --margin-main-header: 2.4rem;
+  /*Margem lateral do header*/
+  --padding-mid-header: 0.5rem;
+  /*Espaçamento entre os menus*/
+
+  /* Fontes */
+  --font-family: 'Arquitecta';
+  --font-size-base: 22px;
+  --font-logo: Olarwe;
+}
+
+/* Estilos globais */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
