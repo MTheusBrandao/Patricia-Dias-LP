@@ -41,29 +41,27 @@
 
 .home {
   padding: var(--padding-mid-header);
-  
 }
 
-.projects{
+.projects {
   padding: var(--padding-mid-header);
 }
 
-.about{
+.about {
   padding: var(--padding-mid-header);
-  
 }
 
-.instagram{
+.instagram {
   padding: var(--padding-mid-header);
   height: 32px;
   width: 32px;
 }
 
-.contact{
+.contact {
   margin-right: var(--margin-main-header);
   padding: 15px 25px;
   font-size: var(--font-size-base);
-  border: 2px solid var(--font-header-color); 
+  border: 2px solid var(--font-header-color);
   border-radius: 10px;
   cursor: pointer;
 }

@@ -1,6 +1,6 @@
-import React from 'react';
-import './HeroSection.css';
-import minhaImagem from '../../assets/Imagem_Hero.jpg';
+import React from "react";
+import "./HeroSection.css";
+import minhaImagem from "../../assets/Imagem_Hero.jpg";
 
 const HeroSection = () => {
   return (
@@ -11,10 +11,7 @@ const HeroSection = () => {
           <p>Sua solução em arquitetura e design de interiores.</p>
         </div>
         <div className="hero-image">
-        <img 
-        src={minhaImagem}
-            alt="Imagem de exemplo"
-          />
+          <img src={minhaImagem} alt="Imagem de exemplo" />
         </div>
       </div>
     </div>

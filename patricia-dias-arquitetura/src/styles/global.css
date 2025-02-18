@@ -1,35 +1,35 @@
 /*Fontes*/
 @font-face {
-  font-family: 'Olarwe';
-  src: url('../fonts/OLARWE-Regular.ttf') format('opentype');
+  font-family: "Olarwe";
+  src: url("../fonts/OLARWE-Regular.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Arquitecta';
-  src: url('../fonts/Arquitecta.otf') format('opentype');
+  font-family: "Arquitecta";
+  src: url("../fonts/Arquitecta.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'PlayfairDisplay';
-  src: url('../fonts/PlayfairDisplay-Regular.ttf') format('opentype');
+  font-family: "PlayfairDisplay";
+  src: url("../fonts/PlayfairDisplay-Regular.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 :root {
   /* Cores principais */
-  --bg-header-color: #EFEFE7;
+  --bg-header-color: #efefe7;
   /* Cor do fundo do header */
   --font-header-color: #000000;
   /* Cor da fonte do header */
-  --bg-color: #EFEFE7;
+  --bg-color: #efefe7;
   /* Cor do background*/
-  --decoration-square-color: #C3BAA5 ;
-  --font-main-color: #000000 ;
+  --decoration-square-color: #c3baa5;
+  --font-main-color: #000000;
 
   /* Espaçamentos*/
   --margin-main-header: 2.4rem;
@@ -38,10 +38,10 @@
   /*Espaçamento entre os menus*/
 
   /* Fontes */
-  --font-family: 'PlayfairDisplay';
+  --font-family: "PlayfairDisplay";
   --font-size-base: 22px;
-  --font-logo: 'Olarwe';
-  --font-header: 'Arquitecta';
+  --font-logo: "Olarwe";
+  --font-header: "Arquitecta";
 }
 
 /* Estilos globais */
