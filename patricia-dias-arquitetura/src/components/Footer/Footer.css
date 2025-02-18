@@ -1,0 +1,10 @@
+.footer {
+    height: 2rem; /* Altura do footer */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+    font-size: 0.875rem; /* Tamanho da fonte */
+    border-top: 1px solid #ddd; /* Linha superior */
+  }
